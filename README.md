@@ -1,2 +1,0 @@
-# tglike.com
-Personal Website
