@@ -1,6 +1,6 @@
 <template>
   <div id="box2">
-     <p class="title2"> {{msg.a}} <br /> {{msg.b}} </p>
+    <p class="title2"> {{msg.a}} <br /> {{msg.b}} </p>
   </div>
 </template>
 <script>
@@ -18,5 +18,28 @@ export default {
   border-bottom: 3px solid #fc0502;
   padding: 5px 20px;
   transition: all .3s;
+}
+@keyframes shakeBox {
+  0%{
+    transform: rotate(0deg) scale(1.2)
+  }
+  50%{
+    transform: rotate(0deg) scale(1.2)
+  }
+  60%{
+    transform: rotate(5deg)  scale(1.2)
+  }
+  70%{
+    transform: rotate(-5deg) scale(1.2)
+  }
+  80%{
+    transform: rotate(5deg) scale(1.2)
+  }
+  90%{
+    transform: rotate(-5deg) scale(1.2)
+  }
+  100%{
+    transform: rotate(0deg) scale(1.2)
+  }
 }
 </style>

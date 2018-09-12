@@ -17,7 +17,7 @@ export default {
   box-sizing: border-box;
   border-bottom: 3px solid #fc0502;
   padding: 10px 20px;
-  transition: all .5s;
+  transition: all .3s;
 }
 #box1 a{
   display: block;
